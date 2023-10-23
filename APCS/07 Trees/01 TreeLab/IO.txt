@@ -1,0 +1,38 @@
+/***************************************************
+    ----jGRASP exec: java TreeLab
+ 		  	E
+ 		E
+ 			C
+ 	M
+ 			N
+ 		T
+ 			E
+ C
+ 			I
+ 		U
+ 			C
+ 	O
+ 			S
+ 					C
+ 				B
+ 		P
+ 				A
+ 			R
+ 
+ Preorder: C O P R A S B C U C I M T E N E C E 
+ Inorder: R A P B C S O C U I C E T N M C E E 
+ Postorder: A R C B S P C I U O E N T C E E M C 
+ 
+ Nodes = 18
+ Leaves = 8
+ Only children = 3
+ Grandparents = 5
+ 
+ Height of tree = 5
+ Longest path = 8
+ Min = A
+ Max = U
+ 
+ By Level: 
+ COMPUTERSCIENCEABC    
+ *******************************************************/

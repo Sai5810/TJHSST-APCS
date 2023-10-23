@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/00-02 AdjMat" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03-05 AdjList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-07 Dijkstra's Algorithm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11 HTH State Graphs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25 TeamBuilder" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/45 Jugs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/65 Island Ferries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/85 RoboCourier" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

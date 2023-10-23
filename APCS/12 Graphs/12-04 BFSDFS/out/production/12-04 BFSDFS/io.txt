@@ -1,0 +1,23 @@
+/********************************
+
+ Edge List Representation! 
+ A [C]
+ B [A]
+ C [C D]
+ D [C A]
+ 
+ Depth First Search
+ 	Enter source: A
+ 				[A [C], C [C D], D [C A]]
+ 	Enter source: D
+ 				[D [C A], A [C], C [C D]]
+ 	Enter source: -1
+ 
+ Breadth First Search
+ 	Enter source: A
+ 				[A [C], C [C D], D [C A]]
+ 	Enter source: D
+ 				[D [C A], C [C D], A [C]]
+ 	Enter source: -1
+ 
+******************************/

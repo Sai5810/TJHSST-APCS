@@ -1,0 +1,125 @@
+/***************************************
+ ----jGRASP exec: java BST_Driver_Teacher
+ 		R
+ 	N
+ M
+ 			I
+ 		E
+ 			C
+ 	A
+ 		A
+ 
+ Size = 8
+ Min = A
+ Max = R
+ Input target: C
+ found: C
+ A A C E I M N R 
+ --------------------------
+ 		R
+ 			N
+ 	M
+ 			I
+ 		E
+ 			C
+ A
+ 	A
+ 
+ Size = 8
+ Min = A
+ Max = R
+ Input target: 
+  ----jGRASP: process ended by user.
+ 
+  ----jGRASP exec: java BST_Driver_Teacher
+ 		R
+ 	N
+ M
+ 			I
+ 		E
+ 			C
+ 	A
+ 		A
+ 
+ Size = 8
+ Min = A
+ Max = R
+ Input target: N
+ found: N
+ in-order traversal: A A C E I M N R 
+ --------------------------
+ 		R
+ 			N
+ 	M
+ 			I
+ 		E
+ 			C
+ A
+ 	A
+ 
+ Size = 8
+ Min = A
+ Max = R
+ Input target: C
+ found: C
+ in-order traversal: A A C E I M N R 
+ --------------------------
+ 						R
+ 					N
+ 				M
+ 			I
+ 		E
+ 	C
+ A
+ 	A
+ 
+ Size = 8
+ Min = A
+ Max = R
+ Input target: X
+ X not found.
+ in-order traversal: A A C E I M N R 
+ --------------------------
+ A
+ 
+ Size = 1
+ Min = A
+ Max = A
+ Input target: A
+ found: A
+ in-order traversal: A 
+ --------------------------
+ 		9
+ 	8
+ 6
+ 		3
+ 	2
+ 			1
+ 		0
+ 
+ Size = 7
+ Min = 0
+ Max = 9
+ Input target: 0
+ found: 0
+ in-order traversal: 0 1 2 3 6 8 9 
+ --------------------------
+ 			West_Virginia
+ 		Washington
+ 	Oklahoma
+ 			New_Hampshire
+ 		Massachusetts
+ 				Kazakhstan
+ 			Iowa
+ Florida
+ 	Colorado
+ 			Arkansas
+ 		Arizona
+ 
+ Size = 11
+ Min = Arizona
+ Max = West_Virginia
+ Input target: Iowa
+ found: Iowa
+ in-order traversal: Arizona Arkansas Colorado Florida Iowa Kazakhstan Massachusetts New_Hampshire Oklahoma Washington West_Virginia 
+ -------------------------- 

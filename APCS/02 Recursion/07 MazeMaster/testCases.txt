@@ -1,0 +1,168 @@
+/*****************************************
+ 
+ ----jGRASP exec: java MazeMaster_teacher
+ Enter the maze's filename (no .txt): maze1
+ WWWWWWWW
+ W....W.W
+ WW.WW..W
+ W....W.W
+ W.W.WW.E
+ S.W.WW.W
+ WW.....W
+ WWWWWWWW
+ 
+ Options: 
+ 1: Mark all dots.
+ 2: Mark all dots and display the number of recursive calls.
+ 3: Mark only the correct path.
+ 4: Mark only the correct path. If no path exists, say so.
+ 5: Mark only the correct path and display the number of steps.
+ 	If no path exists, say so.
+ Please make a selection: 1
+ WWWWWWWW
+ W****W*W
+ WW*WW**W
+ W****W*W
+ W*W*WW*E
+ S*W*WW*W
+ WW*****W
+ WWWWWWWW
+ 
+ 
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java MazeMaster_teacher
+ Enter the maze's filename (no .txt): maze1
+ WWWWWWWW
+ W....W.W
+ WW.WW..W
+ W....W.W
+ W.W.WW.E
+ S.W.WW.W
+ WW.....W
+ WWWWWWWW
+ 
+ Options: 
+ 1: Mark all dots.
+ 2: Mark all dots and display the number of recursive calls.
+ 3: Mark only the correct path.
+ 4: Mark only the correct path. If no path exists, say so.
+ 5: Mark only the correct path and display the number of steps.
+ 	If no path exists, say so.
+ Please make a selection: 2
+ Number of recursions = 105
+ WWWWWWWW
+ W****W*W
+ WW*WW**W
+ W****W*W
+ W*W*WW*E
+ S*W*WW*W
+ WW*****W
+ WWWWWWWW
+ 
+ 
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java MazeMaster_teacher
+ Enter the maze's filename (no .txt): maze1
+ WWWWWWWW
+ W....W.W
+ WW.WW..W
+ W....W.W
+ W.W.WW.E
+ S.W.WW.W
+ WW.....W
+ WWWWWWWW
+ 
+ Options: 
+ 1: Mark all dots.
+ 2: Mark all dots and display the number of recursive calls.
+ 3: Mark only the correct path.
+ 4: Mark only the correct path. If no path exists, say so.
+ 5: Mark only the correct path and display the number of steps.
+ 	If no path exists, say so.
+ Please make a selection: 3
+ WWWWWWWW
+ W....W.W
+ WW.WW..W
+ W***.W.W
+ W*W*WW*E
+ S*W*WW*W
+ WW.****W
+ WWWWWWWW
+         StringBuilder output = new StringBuilder();
+         for (char[] ints : maze) {
+             for (char anInt : ints) {
+                 output.append(anInt).append("\t");
+             }
+             output.append("\n");
+         }
+         System.out.println(output.toString());
+ 
+  ----jGRASP: operation complete.
+ 
+     
+  ----jGRASP exec: java MazeMaster_teacher
+ Enter the maze's filename (no .txt): mazeNoPath
+ WWWWWWWW
+ W....W.W
+ WW.WW..E
+ W..WW.WW
+ W.W.W..W
+ S.W.WW.W
+ WWW....W
+ WWWWWWWW
+ 
+ Options: 
+ 1: Mark all dots.
+ 2: Mark all dots and display the number of recursive calls.
+ 3: Mark only the correct path.
+ 4: Mark only the correct path. If no path exists, say so.
+ 5: Mark only the correct path and display the number of steps.
+ 	If no path exists, say so.
+ Please make a selection: 4
+ No path exists.
+ WWWWWWWW
+ W....W.W
+ WW.WW..E
+ W..WW.WW
+ W.W.W..W
+ S.W.WW.W
+ WWW....W
+ WWWWWWWW
+ 
+ 
+  ----jGRASP: operation complete.
+ 
+  ----jGRASP exec: java MazeMaster_teacher
+ Enter the maze's filename (no .txt): maze1
+ WWWWWWWW
+ W....W.W
+ WW.WW..W
+ W....W.W
+ W.W.WW.E
+ S.W.WW.W
+ WW.....W
+ WWWWWWWW
+ 
+ Options: 
+ 1: Mark all dots.
+ 2: Mark all dots and display the number of recursive calls.
+ 3: Mark only the correct path.
+ 4: Mark only the correct path. If no path exists, say so.
+ 5: Mark only the correct path and display the number of steps.
+ 	If no path exists, say so.
+ Please make a selection: 5
+ Number of steps = 14
+ WWWWWWWW
+ W....W.W
+ WW.WW..W
+ W***.W.W
+ W*W*WW*E
+ S*W*WW*W
+ WW.****W
+ WWWWWWWW
+ 
+ 
+  ----jGRASP: operation complete.
+  ********************************************/
